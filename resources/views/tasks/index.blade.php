@@ -3,8 +3,7 @@
 
 @section('content')
     @if (Auth::check())
-        <?php $user = Auth::user(); ?>
-        {{ $user->name }}
+        
 
     <h1>メッセージ一覧</h1>
 
